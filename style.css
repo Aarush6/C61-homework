@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background: linear-gradient(#11f56c 0%, #00ccff 100%);
+    color: green;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.menu {
+    list-style: none;
+
+    font-family: fantasy;
+    position: fixed;
+    top: 10px;
+    right: 70px;
+    z-index: 3;
+    cursor: pointer;
+
+}
+
+.names {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    
+}
+article:hover{
+    background-color: fuchsia;
+}
