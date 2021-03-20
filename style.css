@@ -27,6 +27,13 @@ img {
     cursor: pointer;
 
 }
+.fun{
+    height: 250px;
+    width: 250px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
 
 .names {
     float: left;
